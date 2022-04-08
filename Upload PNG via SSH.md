@@ -51,7 +51,7 @@ To copy files with the original names, omit the filenames from the destination l
 
 ## Copy selected files<a id="copy-selected-files"></a>
 
-The command below will copy the files `map.png` and `screenshot.png` from the directory `png_files` to the directory `/png_files_new` on the remote host `host2.com`. Also, it will rename the files to `map_copy.png` `screenshot_copy.png`.
+The command below will copy the files `map.png` and `screenshot.png` from the directory `png_files` to the directory `/png_files_new` on the remote host `host2.com`. Also, it will rename the files to `map_copy.png` and `screenshot_copy.png`.
 
 `scp /png_files/map.png screenshot.png user2@host2.com:/png_files_new/map_copy.png screenshot_copy.png`
 
