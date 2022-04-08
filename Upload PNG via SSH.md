@@ -3,11 +3,13 @@
 ## Content
 
 - [What is SSH?](#what-is-ssh)
--
--
--
--
--
+- [Limitations](#limitations)
+- [Before you start](#before-you-start)
+- [Basic syntax](#basic-syntax)
+- [Copy selected files](#copy-selected-files)
+- [Copy entire directory](#copy-entire-directory)
+- [Copy wildcard files](#copy-wildcard-fies)
+- [Related topics](#related-topics)
 
 ## What is SSH?<a id="what-is-ssh"></a>
 
@@ -23,16 +25,16 @@ To learn more about scp and ssh, run the following commands respectively:
 
 SSH is the general protocol, and ssh is the linux SSH client command.
 
-# Limitations
+# Limitations<a id="limitations"></a>
 
 This article covers how to copy PNG files from a local host to a remote host, both running on Linux or MacOS. For other cases, see Related topics.
 
-## Before you start
+## Before you start<a id="before-you-start"></a>
 
 - To be able to copy files, you must have at least read permissions on the source file and write permission on the target system.
 - Ensure that you have the password to authenticate on the remote host.
 
-## Basic syntax
+## Basic syntax<a id="basic-syntax"></a>
 
 To specify the location of the source files, use the following syntax:
 
@@ -52,25 +54,25 @@ To specify the location to which the source file will be copied, use the followi
 
 To copy files with the original names, omit the filenames from the destination location.
 
-## Copy selected files
+## Copy selected files<a id="copy-selected-files"></a>
 
 The command below will copy the files `map.png` and `screenshot.png` from the directory `png_files` to the directory `/png_files_new` on the remote host `host2.com`. Also, it will rename the files to `map_copy.png` `screenshot_copy.png`.
 
 `scp /png_files/map.png screenshot.png user2@host2.com:/png_files_new/map_copy.png screenshot_copy.png`
 
-## Copy entire directory
+## Copy entire directory<a id="copy-entire-directory"></a>
 
 To copy a directory and all its files, use `scp` with the `-r` option for recursive. The command below will copy the entire directory `png_files` from the local machine `host1.com` to the remote host `host2.com`.
 
 `scp -r /png_files/ user2@host2.com:/png_files_new/png_files/`
 
-## Copy wildcard files
+## Copy wildcard files<a id="copy-wildcard-fies"></a>
 
 If you need to copy all PNG files from a local folder, you can use an asterisc ( * ) as a wildcard. The command below will copy all PNG files from the directory `images` from the local machine to the directory `/images_new` on the remote host `host2.com`.
 
 `scp /images/*.png screenshot.png user2@host2.com:/images_new/`
 
-## Related topics
+## Related topics<a id="related-topics"></a>
 
 |To learn how to                     |See this   |
 | ---------------------------------- | --------- |
