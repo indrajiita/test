@@ -58,21 +58,21 @@ Note:
 
 ## Copy selected files<a id="copy-selected-files"></a>
 
-The command below will copy the files `map.png` and `screenshot.png` from the directory `png_files` to the directory `/png_files_new` on the remote host `host2.com`. Also, it will rename the files to `map_copy.png` and `screenshot_copy.png`.
+The command below will copy the files `map.png` and `screenshot.png` from the directory `png_files` to the directory `/png_files_new` on the remote host `dest_host.com`. Also, it will rename the files to `map_copy.png` and `screenshot_copy.png` respectively.
 
-`scp /png_files/map.png screenshot.png user2@host2.com:/png_files_new/map_copy.png screenshot_copy.png`
+`scp /png_files/map.png screenshot.png dest_user@dest_host.com:/png_files_new/map_copy.png screenshot_copy.png`
 
 ## Copy entire directory<a id="copy-entire-directory"></a>
 
-To copy a directory and all its files, use `scp` with the `-r` option for recursive. The command below will copy the entire directory `png_files` from the local machine `host1.com` to the remote host `host2.com`.
+To copy a directory and all its files, use `scp` with the `-r` option for recursive. The command below will copy the entire directory `png_files` from the local machine to the remote host `dest_host.com`.
 
-`scp -r /png_files/ user2@host2.com:/png_files_new/png_files/`
+`scp -r /png_files/ dest_user@dest_host.com:/png_files_new/png_files/`
 
 ## Copy wildcard files<a id="copy-wildcard-fies"></a>
 
-If you need to copy all PNG files from a local folder, you can use an asterisk ( * ) as a wildcard. The command below will copy all PNG files from the directory `images` to the directory `/images_new` on the remote host `host2.com`.
+If you need to copy all PNG files from a local folder, you can use an asterisk ( * ) as a wildcard. The command below will copy all PNG files from the directory `images` to the directory `/images_new` on the remote host `dest_host.com`.
 
-`scp /images/*.png screenshot.png user2@host2.com:/images_new/`
+`scp /images/*.png screenshot.png dest_user@dest_host.com:/images_new/`
 
 ## Related topics<a id="related-topics"></a>
 
