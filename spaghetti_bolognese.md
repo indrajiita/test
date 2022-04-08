@@ -79,7 +79,7 @@ Get used to different cooking units? Check out this [converter](https://www.thec
 
 ### Step 7
 
-- When the bolognese is almost ready, cook 400g spaghetti following the pack instructions.
+- When the bolognese is almost ready, cook 400 g spaghetti following the pack instructions.
 - Drain the spaghetti and stir it into the bolognese sauce. Serve with the 25 g grated parmesan.
 
 Bon appetit!
