@@ -2,7 +2,7 @@
 
 ## Intro
 
-This recipe shows you how to make spaghetti bolognese—a true Italian classic—using ingridients commonly found in a grocery store.
+This recipe shows you how to make spaghetti bolognese—a true Italian classic—using ingredients commonly found in a grocery store.
 
 - Level: Easy
 - Prep: 30 min
@@ -34,10 +34,10 @@ Average nutrition information per serving:
   - 125 ml red wine
   - 75 g parmesan grated
   - 2 fresh bay leaves
-  - 2 tbsp tomato souce
+  - 2 tbsp tomato sauce
   - 1 tsp basil leaves
   - 1 tsp dried oregano
-  - Optional: 1 red chilli deseeded
+  - Optional: 1 red chili deseeded
 - To season and serve
   - 400 g spaghetti
   - 25 g parmesan grated
@@ -48,7 +48,7 @@ Get used to different cooking units? Check out this [converter](https://www.thec
 
 ### Step 1
 
-- Put a large saucepan on a low heat.
+- Put a large saucepan on low heat.
 - Add 1 tbsp olive oil.
 
 ### Step 2
@@ -65,7 +65,7 @@ Get used to different cooking units? Check out this [converter](https://www.thec
 ### Step 4
 
 - Add plum tomatoes and red wine.
-- Finely chop and add basil leaves, dried oregano, bay leaves, tomato souce, and red chilli (if using).
+- Finely chop and add basil leaves, dried oregano, bay leaves, tomato sauce, and red chili (if using).
 - Stir occasionally.
 
 ### Step 5
@@ -80,7 +80,7 @@ Get used to different cooking units? Check out this [converter](https://www.thec
 ### Step 7
 
 - When the bolognese is almost ready, cook 400g spaghetti following the pack instructions.
-- Drain the spaghetti and stir into the bolognese sauce. Serve with the 25 g grated parmesan.
+- Drain the spaghetti and stir it into the bolognese sauce. Serve with the 25 g grated parmesan.
 
 Bon appetit!
 
