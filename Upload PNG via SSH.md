@@ -13,12 +13,13 @@
 
 ## What is SSH?<a id="what-is-ssh"></a>
 
-SSH (Secure Shell Protocol) is a secure network protocol that creates a safe channel to transfer data. Sending files over SSH relies on the SCP (Secure Copy Protocol), which securely transfers files and folders between two machines.
+SSH (Secure Shell Protocol) is a secure network protocol that creates a safe channel to transfer data, and `ssh` is the linux SSH client command. Sending files over SSH relies on the SCP (Secure Copy Protocol), which securely transfers files and folders between two machines.
 
-To learn more about scp and ssh, run the following commands respectively:
+|To learn more about  |Run command  | 
+| ------------------- | ----------  |
+|SSH                  |`man ssh`    | 
+|SCP                  |`man scp`    |
 
-`man scp`
-`man ssh`
 
 
 , and ssh is the linux SSH client command.
