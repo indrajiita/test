@@ -63,7 +63,7 @@ To copy a directory and all its files, use `scp` with the `-r` option for recurs
 
 ## Copy wildcard files<a id="copy-wildcard-fies"></a>
 
-If you need to copy all PNG files from a local folder, you can use an asterisc ( * ) as a wildcard. The command below will copy all PNG files from the directory `images` from the local machine to the directory `/images_new` on the remote host `host2.com`.
+If you need to copy all PNG files from a local folder, you can use an asterisc ( * ) as a wildcard. The command below will copy all PNG files from the directory `images` to the directory `/images_new` on the remote host `host2.com`.
 
 `scp /images/*.png screenshot.png user2@host2.com:/images_new/`
 
