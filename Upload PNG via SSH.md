@@ -14,7 +14,10 @@
 
 SSH (Secure Shell Protocol) is a secure network protocol that creates a safe channel to transfer data. Sending files over SSH relies on the SCP (Secure Copy Protocol), which securely transfers files and folders between two machines.
 
+For more about scp and ssh, see its manual page
 
+man scp
+man ssh
 
 
 , and ssh is the linux SSH client command.
@@ -32,23 +35,32 @@ Does your version of Windows predate Windows 10? A third-party app is necessary 
 
 ## Syntax
 
-The location of the source file is specified by username1@source_host:directory1/filename1, which includes the:
+To specify the location of the source files, use the following syntax:
 
-Name of the account on the host computer (username1)
-Hostname of the computer on which the source file resides (source_host)
-Name of the directory containing the source file (directory1)
-Filename of the source file (filename1)
-The location to which the source file will be copied is specified by username2@destination_host:directory2/filename2, which includes the:
+`source_user@source_host:source_directory/file1 file2`
 
-Name of the account on the destination computer (username2)
-Hostname of the computer to which the source file will be copied (destination_host)
-Name of the directory to which the source file will be copied (directory2)
-Filename of the copy (filename2)
+- **source_user** is the name of the account on the host computer.
+- **source_host** is the hostname of the computer on which the source file resides.
+- **source_directory** is the name of the source directory containing.
+- **file1**, **file2** are the source file names.
+
+To specify location to which the source file will be copied, use the following syntax:
+
+`dest_user@dest_host:dest_directory/newfile1 newfile2`
+
+- **dest_user** is the name of the account on the destination computer.
+- **dest_host** is the hostname of the computer to which the source file will be copied.
+- **dest_directory** Name of the directory to which the source file will be copied ()
+- **newfile1**, **newfile2** are the copy file names.
+
+?????? Omitting the filename from the destination location copies the file with the original name. If you want to save the file under a different name, you need to specify the new file name.
+
 
 ## Copy selected files
 
-If you need to copy multiple PDF files from a location. Instead of copying the complete folder we can achieve this by specifying the required files in the same command separated by space. i.e, it should be like,
+To copy multiple the `map.png` and `screenshot.png` files from a location, specify the files separated by space.
 
+scp -r dvader@deathstar.com:~/revenge ~/revenge
 
 
 ## Copy wildcard files
