@@ -13,7 +13,7 @@
 
 ## What is SSH?<a id="what-is-ssh"></a>
 
-SSH (Secure Shell Protocol) is a secure network protocol that creates a safe channel to transfer data, and `ssh` is the Linux SSH client command. With SSH, you can do the following:
+SSH (Secure Shell Protocol) is a secure network protocol that creates a safe channel to transfer data. With SSH, you can do the following:
 
 - Secure remote access to resources
 - Execute commands remotely
