@@ -20,7 +20,7 @@ For more information about the syntax and options, consalt the manual pages by r
 - For SSH: `man ssh` 
 - For SCP: `man scp`
 
-# Limitations<a id="limitations"></a>
+## Limitations<a id="limitations"></a>
 
 This article covers how to copy PNG files from a local host to a remote host, both running on Linux or MacOS. For other cases, see [Related topics](#related-topics).
 
