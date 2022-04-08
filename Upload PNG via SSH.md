@@ -1,4 +1,4 @@
-# How to Copy Multiple PNG Images to Server via SSH
+# Copying PNG Images From Local To Server via SSH
 
 ## Content
 
@@ -13,7 +13,7 @@
 
 ## What is SSH?<a id="what-is-ssh"></a>
 
-SSH (Secure Shell Protocol) is a secure network protocol that creates a safe channel to transfer data, and `ssh` is the linux SSH client command. With SSH, you can do the following:
+SSH (Secure Shell Protocol) is a secure network protocol that creates a safe channel to transfer data, and `ssh` is the Linux SSH client command. With SSH, you can do the following:
 
 - Secure remote access to resources
 - Execute commands remotely
@@ -67,7 +67,7 @@ To copy a directory and all its files, use `scp` with the `-r` option for recurs
 
 ## Copy wildcard files<a id="copy-wildcard-fies"></a>
 
-If you need to copy all PNG files from a local folder, you can use an asterisc ( * ) as a wildcard. The command below will copy all PNG files from the directory `images` to the directory `/images_new` on the remote host `host2.com`.
+If you need to copy all PNG files from a local folder, you can use an asterisk ( * ) as a wildcard. The command below will copy all PNG files from the directory `images` to the directory `/images_new` on the remote host `host2.com`.
 
 `scp /images/*.png screenshot.png user2@host2.com:/images_new/`
 
