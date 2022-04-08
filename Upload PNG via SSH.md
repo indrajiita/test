@@ -26,15 +26,18 @@ SSH is the general protocol, and ssh is the linux SSH client command.
 
 # Limitations
 
-This article covers how to copy PNG files from a local host to a remote host.
+This article covers how to copy PNG files from a local host to a remote host, both running on Linux or MacOS.
 
-- To learn how to transfer files between remote hosts, see [SCP: Remote to Remote](https://www.google.ru/search?q=SCP+remote+to+remote).
-- To transfer large (over 1 GB) files, see [SCP: Transferring Large Files](https://unix.stackexchange.com/questions/190537/transferring-large-8-gb-files-over-ssh)
+|To learn                                   |See this   |
+|How to transfer files between remote hosts |[SCP: Remote to Remote](https://www.google.ru/search?q=SCP+remote+to+remote)|
+|How transfer files over 1 GB               |[SCP: Transferring Large Files](https://unix.stackexchange.com/questions/190537/transferring-large-8-gb-files-over-ssh)|
+|How to use ssp on Windows machines         |[How to use SCP command on Windows](https://success.tanaza.com/s/article/How-to-use-SCP-command-on-Windows)
 
 
 ## Before you start
 
-To be able to copy files, you must have at least read permissions on the source file and write permission on the target system.
+- To be able to copy files, you must have at least read permissions on the source file and write permission on the target system.
+- 
 
 
 Does your version of Windows predate Windows 10? A third-party app is necessary to take advantage of SSH, as it only became native with that version. In cases like these, Putty is the most widely used SSH app for Windows. You can find it at https://www.putty.org/.
