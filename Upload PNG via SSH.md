@@ -47,11 +47,14 @@ To specify the location to which the source file will be copied, use the followi
 `dest_user@dest_host:dest_directory/newfile1 newfile2`
 
 - **dest_user** is the name of the account on the destination machine.
-- **dest_host** is the hostname of the machine to which the source file will be copied.
-- **dest_directory** is the name of the directory to which the source file will be copied.
+- **dest_host** is the hostname of the machine to which the source files will be copied.
+- **dest_directory** is the name of the directory to which the source files will be copied.
 - **newfile1**, **newfile2** are the filenames of the copy files separated by space.
 
-To copy files with the original names, omit the filenames from the destination location.
+Note:
+
+- To copy files with the original names, omit the filenames from the destination location.
+- After running the command, you will be prompted for the remote user password. Once you successfully authenticate, the file will be transferred.
 
 ## Copy selected files<a id="copy-selected-files"></a>
 
