@@ -30,7 +30,7 @@ This article covers how to copy PNG files from a local host to a remote host, bo
 
 ## Before you start<a id="before-you-start"></a>
 
-- To be able to copy files, you must have at least read permissions on the source file and write permission on the target system.
+- To be able to copy files, get at least read permissions on the source file and write permission on the target system.
 - Ensure that you have the password to authenticate on the remote host.
 
 ## Basic syntax<a id="basic-syntax"></a>
