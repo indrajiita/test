@@ -42,31 +42,45 @@ To specify the location of the source files, use the following syntax:
 - **source_user** is the name of the account on the host computer.
 - **source_host** is the hostname of the computer on which the source file resides.
 - **source_directory** is the name of the source directory containing.
-- **file1**, **file2** are the source file names.
+- **file1**, **file2** are the filenames of the files to copy.
 
-To specify location to which the source file will be copied, use the following syntax:
+To specify the location to which the source file will be copied, use the following syntax:
 
 `dest_user@dest_host:dest_directory/newfile1 newfile2`
 
 - **dest_user** is the name of the account on the destination computer.
 - **dest_host** is the hostname of the computer to which the source file will be copied.
 - **dest_directory** Name of the directory to which the source file will be copied ()
-- **newfile1**, **newfile2** are the copy file names.
+- **newfile1**, **newfile2** are the filenames of the copy files.
 
-?????? Omitting the filename from the destination location copies the file with the original name. If you want to save the file under a different name, you need to specify the new file name.
-
+To copy files with the original names, omit the filenames from the destination location.
 
 ## Copy selected files
 
-To copy multiple the `map.png` and `screenshot.png` files from a location, specify the files separated by space.
+The following command will copy the files `map.png` and `screenshot.png` from the directory `files` on the remote host `host1.com` to the directory `/files` on the remote host `host2.com`, and will rename the files to `map_new.png` `screenshot_new.png`.
+
+`scp user1@host1.com:/files/map.png screenshot.png user2@host2.com:/files_new/map_new.png screenshot_new.png`
+
+
+
+To copy the `map.png` and `screenshot.png` files from a location, run the following command:
+
+scp dvader@deathstar.com:~/revenge ~/revenge
+
+To copy a directory (and all the files it contains), use scp with the -r option. This tells scp to recursively copy the source directory and its contents.
+To copy the entire revenge directory from your deathstar.com account to your empire.gov account, enter:
 
 scp -r dvader@deathstar.com:~/revenge ~/revenge
-
 
 ## Copy wildcard files
 
 If you need to copy all PNG files from a folder, you can use an asterisc ( * ) as a wildcard, like this"
 
+
+To copy multiple files within a directory, you can use wildcards (for example, * or ?). However, to use wildcards for copying multiple source files from a remote system, you need to place quotes (" ") around the path to the source files. This is necessary because the Unix shell, not the scp command, expands unquoted wildcards.
+Therefore, to copy all the .txt files from the revenge directory on your deathstar.com account to your revenge directory on empire.gov, enter:
+
+scp dvader@deathstar.com:"revenge/*.txt" ~/revenge/
 
 You can use wildcards to transfer multiple files in either direction, like this:
 
