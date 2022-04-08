@@ -31,7 +31,7 @@ This article covers how to copy PNG files from a local host to a remote host, bo
 |To learn                                   |See this   |
 |How to transfer files between remote hosts |[SCP: Remote to Remote](https://www.google.ru/search?q=SCP+remote+to+remote)|
 |How transfer files over 1 GB               |[SCP: Transferring Large Files](https://unix.stackexchange.com/questions/190537/transferring-large-8-gb-files-over-ssh)|
-|How to use ssp on Windows machines         |[How to use SCP command on Windows](https://success.tanaza.com/s/article/How-to-use-SCP-command-on-Windows)
+|How to use ssp on Windows machines         |[How to use SCP command on Windows](https://success.tanaza.com/s/article/How-to-use-SCP-command-on-Windows)|
 
 
 ## Before you start
