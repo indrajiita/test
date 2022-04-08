@@ -24,23 +24,28 @@ To learn more about scp and ssh, run the following commands respectively:
 
 SSH is the general protocol, and ssh is the linux SSH client command.
 
+# Limitations
 
+This article covers how to copy PNG files from a local host to a remote host.
 
-Does your version of Windows predate Windows 10? A third-party app is necessary to take advantage of SSH, as it only became native with that version. In cases like these, Putty is the most widely used SSH app for Windows. You can find it at https://www.putty.org/.
+- To learn how to transfer files between remote hosts, see [SCP: Remote to Remote](https://www.google.ru/search?q=SCP+remote+to+remote).
+- To transfer large (over 1 GB) files, see [SCP: Transferring Large Files](https://unix.stackexchange.com/questions/190537/transferring-large-8-gb-files-over-ssh)
+
 
 ## Before you start
 
+To be able to copy files, you must have at least read permissions on the source file and write permission on the target system.
 
+
+Does your version of Windows predate Windows 10? A third-party app is necessary to take advantage of SSH, as it only became native with that version. In cases like these, Putty is the most widely used SSH app for Windows. You can find it at https://www.putty.org/.
 
 
 ## Syntax
 
 To specify the location of the source files, use the following syntax:
 
-`source_user@source_host:source_directory/file1 file2`
+`source_directory/file1 file2`
 
-- **source_user** is the name of the account on the host computer.
-- **source_host** is the hostname of the computer on which the source file resides.
 - **source_directory** is the name of the source directory containing.
 - **file1**, **file2** are the filenames of the files to copy separated by space.
 
@@ -55,42 +60,24 @@ To specify the location to which the source file will be copied, use the followi
 
 To copy files with the original names, omit the filenames from the destination location.
 
+
 ## Copy selected files
 
-The command below will copy the files `map.png` and `screenshot.png` from the directory `png_files` on remote host `host1.com` to the directory `/png_files_new` on the remote host `host2.com`. Also, it will rename the files to `map_copy.png` `screenshot_copy.png`.
+The command below will copy the files `map.png` and `screenshot.png` from the directory `png_files` to the directory `/png_files_new` on the remote host `host2.com`. Also, it will rename the files to `map_copy.png` `screenshot_copy.png`.
 
-`scp user1@host1.com:/png_files/map.png screenshot.png user2@host2.com:/png_files_new/map_copy.png screenshot_copy.png`
+`scp /png_files/map.png screenshot.png user2@host2.com:/png_files_new/map_copy.png screenshot_copy.png`
 
 ## Copy entire directory
 
-To copy a directory and all its files, use `scp` with the `-r` option for recursive. The command below will copy the entire directory `png_files` from the remote host `host1.com` to the remote host `host2.com`.
+To copy a directory and all its files, use `scp` with the `-r` option for recursive. The command below will copy the entire directory `png_files` from the local machine `host1.com` to the remote host `host2.com`.
 
-`scp -r user1@host1.com:/png_files/ user2@host2.com:/png_files_new/png_files/`
-
-
-
-
-To copy the `map.png` and `screenshot.png` files from a location, run the following command:
-
-scp dvader@deathstar.com:~/revenge ~/revenge
-
-
-
-scp -r dvader@deathstar.com:~/revenge ~/revenge
+`scp -r /png_files/ user2@host2.com:/png_files_new/png_files/`
 
 ## Copy wildcard files
 
-If you need to copy all PNG files from a folder, you can use an asterisc ( * ) as a wildcard, like this"
+If you need to copy all PNG files from a local folder, you can use an asterisc ( * ) as a wildcard. The command below will copy all PNG files from the directory `images` from the local machine to the directory `/images_new` on the remote host `host2.com`.
 
-
-To copy multiple files within a directory, you can use wildcards (for example, * or ?). However, to use wildcards for copying multiple source files from a remote system, you need to place quotes (" ") around the path to the source files. This is necessary because the Unix shell, not the scp command, expands unquoted wildcards.
-Therefore, to copy all the .txt files from the revenge directory on your deathstar.com account to your revenge directory on empire.gov, enter:
-
-scp dvader@deathstar.com:"revenge/*.txt" ~/revenge/
-
-You can use wildcards to transfer multiple files in either direction, like this:
-
-pscp c:\documents\*.doc fred@example.com:docfiles
+`scp /images/*.png screenshot.png user2@host2.com:/images_new/`
 
 
 
