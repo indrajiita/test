@@ -30,16 +30,48 @@ Does your version of Windows predate Windows 10? A third-party app is necessary 
 
 
 
+## Syntax
 
-Suppose we need to copy multiple files from a location. Instead of copying the complete folder we can achieve this by specifying the required files in the same command separated by space. i.e, it should be like,
+The location of the source file is specified by username1@source_host:directory1/filename1, which includes the:
+
+Name of the account on the host computer (username1)
+Hostname of the computer on which the source file resides (source_host)
+Name of the directory containing the source file (directory1)
+Filename of the source file (filename1)
+The location to which the source file will be copied is specified by username2@destination_host:directory2/filename2, which includes the:
+
+Name of the account on the destination computer (username2)
+Hostname of the computer to which the source file will be copied (destination_host)
+Name of the directory to which the source file will be copied (directory2)
+Filename of the copy (filename2)
+
+## Copy selected files
+
+If you need to copy multiple PDF files from a location. Instead of copying the complete folder we can achieve this by specifying the required files in the same command separated by space. i.e, it should be like,
+
+
+
+## Copy wildcard files
+
+If you need to copy all PNG files from a folder, you can use an asterisc ( * ) as a wildcard, like this"
+
+
+You can use wildcards to transfer multiple files in either direction, like this:
+
+pscp c:\documents\*.doc fred@example.com:docfiles
+
+
+
+
+
+
+
 
 scp source/file file2 file3 [user@server]/destination
 If needed, it is also possible to copy from different locations. We just need to provide them in a space-separated list.
 
 -------------
-You can use wildcards to transfer multiple files in either direction, like this:
 
-pscp c:\documents\*.doc fred@example.com:docfiles
 
 ---------
 
