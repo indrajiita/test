@@ -15,4 +15,7 @@
 - Read and follow [Wikipedia Editing Policy](https://en.wikipedia.org/wiki/Wikipedia:Editing_policy). If you volate the policy, other editors might reject your amendments.
 - Search for your article on Wikipedia—duplicate articles are most likely to be deleted. If your article already exists, try to improve it.
 
+## Create a draft
+
+
 
