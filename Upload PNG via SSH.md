@@ -13,16 +13,20 @@
 
 ## What is SSH?<a id="what-is-ssh"></a>
 
-SSH (Secure Shell Protocol) is a secure network protocol that creates a safe channel to transfer data, and `ssh` is the linux SSH client command. Sending files over SSH relies on the SCP (Secure Copy Protocol), which securely transfers files and folders between two machines.
+SSH (Secure Shell Protocol) is a secure network protocol that creates a safe channel to transfer data, and `ssh` is the linux SSH client command. With SSH, you can:
 
-For more information about the syntax and options, consalt the manual pages by running these commands:
+- Secure remote access to resources
+- Execute commands remotely
+- Automate file transfers
+
+Sending files over SSH relies on the SCP (Secure Copy Protocol), which securely transfers files and folders between two machines. For more information about the syntax and options, consult the manual pages by running these commands:
 
 - For SSH: `man ssh` 
 - For SCP: `man scp`
 
 ## Limitations<a id="limitations"></a>
 
-This article covers how to copy PNG files from a local host to a remote host, both running on Linux or MacOS. For other cases, see [Related topics](#related-topics).
+This article covers how to copy PNG files from a local host to a remote host, both running on Unix or Linux OS. For other cases, see [Related topics](#related-topics).
 
 ## Before you start<a id="before-you-start"></a>
 
