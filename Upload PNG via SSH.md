@@ -42,7 +42,7 @@ To specify the location of the source files, use the following syntax:
 - **source_user** is the name of the account on the host computer.
 - **source_host** is the hostname of the computer on which the source file resides.
 - **source_directory** is the name of the source directory containing.
-- **file1**, **file2** are the filenames of the files to copy.
+- **file1**, **file2** are the filenames of the files to copy separated by space.
 
 To specify the location to which the source file will be copied, use the following syntax:
 
@@ -51,15 +51,22 @@ To specify the location to which the source file will be copied, use the followi
 - **dest_user** is the name of the account on the destination computer.
 - **dest_host** is the hostname of the computer to which the source file will be copied.
 - **dest_directory** Name of the directory to which the source file will be copied ()
-- **newfile1**, **newfile2** are the filenames of the copy files.
+- **newfile1**, **newfile2** are the filenames of the copy files separated by space.
 
 To copy files with the original names, omit the filenames from the destination location.
 
 ## Copy selected files
 
-The following command will copy the files `map.png` and `screenshot.png` from the directory `files` on the remote host `host1.com` to the directory `/files` on the remote host `host2.com`, and will rename the files to `map_new.png` `screenshot_new.png`.
+The command below will copy the files `map.png` and `screenshot.png` from the directory `png_files` on remote host `host1.com` to the directory `/png_files_new` on the remote host `host2.com`. Also, it will rename the files to `map_copy.png` `screenshot_copy.png`.
 
-`scp user1@host1.com:/files/map.png screenshot.png user2@host2.com:/files_new/map_new.png screenshot_new.png`
+`scp user1@host1.com:/png_files/map.png screenshot.png user2@host2.com:/png_files_new/map_copy.png screenshot_copy.png`
+
+## Copy entire directory
+
+To copy a directory and all its files, use `scp` with the `-r` option for recursive. The command below will copy the entire directory `png_files` from the remote host `host1.com` to the remote host `host2.com`.
+
+`scp -r user1@host1.com:/png_files/ user2@host2.com:/png_files_new/png_files/`
+
 
 
 
@@ -67,8 +74,7 @@ To copy the `map.png` and `screenshot.png` files from a location, run the follow
 
 scp dvader@deathstar.com:~/revenge ~/revenge
 
-To copy a directory (and all the files it contains), use scp with the -r option. This tells scp to recursively copy the source directory and its contents.
-To copy the entire revenge directory from your deathstar.com account to your empire.gov account, enter:
+
 
 scp -r dvader@deathstar.com:~/revenge ~/revenge
 
