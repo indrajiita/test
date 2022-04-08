@@ -15,16 +15,10 @@
 
 SSH (Secure Shell Protocol) is a secure network protocol that creates a safe channel to transfer data, and `ssh` is the linux SSH client command. Sending files over SSH relies on the SCP (Secure Copy Protocol), which securely transfers files and folders between two machines.
 
-|To learn more about  |Run command  | 
-| ------------------- | ----------  |
-|SSH                  |`man ssh`    | 
-|SCP                  |`man scp`    |
+For more information about the syntax and options, consalt the manual pages by running these commands:
 
-
-
-, and ssh is the linux SSH client command.
-
-SSH is the general protocol, and ssh is the linux SSH client command.
+- For SSH: `man ssh` 
+- For SCP: `man scp`
 
 # Limitations<a id="limitations"></a>
 
@@ -75,7 +69,7 @@ If you need to copy all PNG files from a local folder, you can use an asterisc (
 
 ## Related topics<a id="related-topics"></a>
 
-|To learn how to                     |See this   |
+|To                                  |See this   |
 | ---------------------------------- | --------- |
 |Transfer files between remote hosts |[SCP: Remote to Remote](https://www.google.ru/search?q=SCP+remote+to+remote)|
 |Transfer files over 1 GB            |[SCP: Transferring Large Files](https://unix.stackexchange.com/questions/190537/transferring-large-8-gb-files-over-ssh)|
