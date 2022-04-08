@@ -39,8 +39,8 @@ To specify the location of the source files, use the following syntax:
 
 `source_directory/file1 file2`
 
-- **source_directory** is the name of the source directory containing.
-- **file1**, **file2** are the filenames of the files to copy separated by space.
+- **source_directory** is the name of the directory containing the files.
+- **file1**, **file2** are the names of the files to copy, separated by space.
 
 To specify the location to which the source file will be copied, use the following syntax:
 
@@ -49,7 +49,7 @@ To specify the location to which the source file will be copied, use the followi
 - **dest_user** is the name of the account on the destination machine.
 - **dest_host** is the hostname of the machine to which the source files will be copied.
 - **dest_directory** is the name of the directory to which the source files will be copied.
-- **newfile1**, **newfile2** are the filenames of the copy files separated by space.
+- **newfile1**, **newfile2** are the names of the copy files, separated by space.
 
 Note:
 
