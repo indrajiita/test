@@ -1,16 +1,15 @@
-# How to Upload Multiple PNG Images to Server via SSH
+# How to Copy Multiple PNG Images to Server via SSH
 
 ## Content
 
-- 
--
+- [What is SSH?](#what-is-ssh)
 -
 -
 -
 -
 -
 
-## What is SSH?
+## What is SSH?<a id="what-is-ssh"></a>
 
 SSH (Secure Shell Protocol) is a secure network protocol that creates a safe channel to transfer data. Sending files over SSH relies on the SCP (Secure Copy Protocol), which securely transfers files and folders between two machines.
 
@@ -26,24 +25,14 @@ SSH is the general protocol, and ssh is the linux SSH client command.
 
 # Limitations
 
-This article covers how to copy PNG files from a local host to a remote host, both running on Linux or MacOS.
-
-|To learn                                   |See this   |
-|How to transfer files between remote hosts |[SCP: Remote to Remote](https://www.google.ru/search?q=SCP+remote+to+remote)|
-|How transfer files over 1 GB               |[SCP: Transferring Large Files](https://unix.stackexchange.com/questions/190537/transferring-large-8-gb-files-over-ssh)|
-|How to use ssp on Windows machines         |[How to use SCP command on Windows](https://success.tanaza.com/s/article/How-to-use-SCP-command-on-Windows)|
-
+This article covers how to copy PNG files from a local host to a remote host, both running on Linux or MacOS. For other cases, see Related topics.
 
 ## Before you start
 
 - To be able to copy files, you must have at least read permissions on the source file and write permission on the target system.
-- 
+- Ensure that you have the password to authenticate on the remote host.
 
-
-Does your version of Windows predate Windows 10? A third-party app is necessary to take advantage of SSH, as it only became native with that version. In cases like these, Putty is the most widely used SSH app for Windows. You can find it at https://www.putty.org/.
-
-
-## Syntax
+## Basic syntax
 
 To specify the location of the source files, use the following syntax:
 
@@ -63,7 +52,6 @@ To specify the location to which the source file will be copied, use the followi
 
 To copy files with the original names, omit the filenames from the destination location.
 
-
 ## Copy selected files
 
 The command below will copy the files `map.png` and `screenshot.png` from the directory `png_files` to the directory `/png_files_new` on the remote host `host2.com`. Also, it will rename the files to `map_copy.png` `screenshot_copy.png`.
@@ -82,28 +70,10 @@ If you need to copy all PNG files from a local folder, you can use an asterisc (
 
 `scp /images/*.png screenshot.png user2@host2.com:/images_new/`
 
+## Related topics
 
-
-
-
-
-
-
-scp source/file file2 file3 [user@server]/destination
-If needed, it is also possible to copy from different locations. We just need to provide them in a space-separated list.
-
--------------
-
-
----------
-
-5.2.1.3 source
-One or more source files. Wildcards are allowed. The syntax of wildcards depends on the system to which they apply, so if you are copying from a Windows system to a UNIX system, you should use Windows wildcard syntax (e.g. *.*), but if you are copying from a UNIX system to a Windows system, you would use the wildcard syntax allowed by your UNIX shell (e.g. *).
-
-If the source is a remote server and you do not specify a full pathname (in UNIX, a pathname beginning with a / (slash) character), what you specify as a source will be interpreted relative to your home directory on the remote server.
-
------------
-
-Copy multiple files from local to remote using scp.
-$ scp myfile.txt myfile2.txt remoteuser@remoteserver:/remote/folder/
-
+|To learn how to                     |See this   |
+| ---------------------------------- | --------- |
+|Transfer files between remote hosts |[SCP: Remote to Remote](https://www.google.ru/search?q=SCP+remote+to+remote)|
+|Transfer files over 1 GB            |[SCP: Transferring Large Files](https://unix.stackexchange.com/questions/190537/transferring-large-8-gb-files-over-ssh)|
+|Use ssp on Windows machines         |[How to use SCP command on Windows](https://success.tanaza.com/s/article/How-to-use-SCP-command-on-Windows)|
