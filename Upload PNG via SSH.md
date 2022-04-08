@@ -1,4 +1,4 @@
-# How to Upload Multiple PNG Images From Local to Server via SSH
+# How to Upload Multiple PNG Images to Server via SSH
 
 ## Content
 
@@ -12,15 +12,12 @@
 
 ## What is SSH?
 
-SSH (Secure Shell Protocol) is a secure network protocol that creates a safe channel to transfer data. Sending files over SSH relies on the SCP (Secure Copy Protocol): this is a technique for transferring files and folders from computer to computer securely. It’s based on the SSH protocol used with it.
+SSH (Secure Shell Protocol) is a secure network protocol that creates a safe channel to transfer data. Sending files over SSH relies on the SCP (Secure Copy Protocol), which securely transfers files and folders between two machines.
+
+
 
 
 , and ssh is the linux SSH client command.
-
-
-What is Secure Copy Protocol (SCP)?
-
-
 
 SSH is the general protocol, and ssh is the linux SSH client command.
 
@@ -29,6 +26,9 @@ SSH is the general protocol, and ssh is the linux SSH client command.
 Does your version of Windows predate Windows 10? A third-party app is necessary to take advantage of SSH, as it only became native with that version. In cases like these, Putty is the most widely used SSH app for Windows. You can find it at https://www.putty.org/.
 
 ## Before you start
+
+
+
 
 
 Suppose we need to copy multiple files from a location. Instead of copying the complete folder we can achieve this by specifying the required files in the same command separated by space. i.e, it should be like,
