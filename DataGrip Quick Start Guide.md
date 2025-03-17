@@ -18,9 +18,9 @@
 
 ## Introduction<a id="introduction"></a>
 
-DataGrip is a comprehensive database management solution, which is designed to create, query, and manage local, server, and cloud databases. It supports the most popular database management systems.
+DataGrip is a comprehensive database management solution designed to create, query, and manage local, server, and cloud databases. It supports the most popular database management systems.
 
-![Supported DBMSs](./media1/supportedDBMS.png)
+<img src="https://github.com/indrajiita/test/blob/main/media1/supportedDBMS.png" width="500">
 
 This guide aims to give you the first experience of the product. By following this guide, you will learn the basic DataGrip features, create your first project, and try out managing a local database.
 
@@ -35,8 +35,8 @@ When you launch DataGrip for the first time, the initial configuration wizard op
 
 - **Projects**. [Create your first project](#create-a-project).
 - **Customize**. [Fine-tune the application appearance](#customize-the-appearance) to suit your personal preferences and special needs.
-- **Plugins**. Get access to the marketplace and manage plugins to get the most of DataGrip.
-- **Learn DataGrip**. Find links to DataGrip documentation, demos and screencasts, and other useful information.
+- **Plugins**. Get access to the marketplace and manage plugins to get the most out of DataGrip.
+- **Learn DataGrip**. Find links to DataGrip documentation, demos, screencasts, and other useful information.
 
 ## Customize the appearance<a id="customize-the-appearance"></a>
 
@@ -47,7 +47,7 @@ To customize the application appearance from the initial configuration wizard:
     - Color theme
     - Accessibility options
     - Keymap scheme<br>
-![Customize](./media1/customize.png)
+<img src="https://github.com/indrajiita/test/blob/main/media1/customize.png" width="500" style="border: 2px solid black;">
 
 To learn more, see [IDE appearance](https://www.jetbrains.com/help/datagrip/2021.2/guided-tour-around-the-user-interface.html).
 
@@ -116,7 +116,7 @@ DataGrip provides an engine to move data between databases in various formats. Y
 2. In the **Export Data** dialog, provide the following required parameters:
     - **Extractor**. This defines the export file format, such as CSV, XLSX, or XML.
     - **Output file**. The path to the export file and its name.
-3. Optionally, select **Transpose**. In the transposed view, the rows and columns in the export file is interchanged.
+3. Optionally, select **Transpose**. In the transposed view, the rows and columns in the export file are interchanged.
 4. Click **Export to File**.<br>
 ![Export Data](./media1/exportdata.png)
 
@@ -134,7 +134,7 @@ See [Import](https://www.jetbrains.com/help/datagrip/2021.2/import-data.html) to
 
 ## Useful links<a id="useful-links"></a>
 
-Now that you know DataGrip basics, watch the tutorial or look through the documentation to learn more and get the most of the solution.
+Now that you know DataGrip basics, watch the tutorial or look through the documentation to learn more and get the most out of the solution.
 
 ### Video tutorial<a id="video-tutorial"></a>
 
@@ -144,7 +144,7 @@ This [40-minute video tutorial](https://www.youtube.com/watch?v=U5SOD-eeK50&t=0s
 
 ### Related topics<a id="related-topics"></a>
 
-|To                             |See this                       |
+|To do this                     |See this                       |
 |:------------------------------|:------------------------------|
 |Create data source connections    |[Database connections](https://www.jetbrains.com/help/datagrip/2021.2/connecting-to-a-database.html)|
 |Find and fix errors in your code|[Debugging](https://www.jetbrains.com/help/datagrip/2021.2/debugging-code.html)|
