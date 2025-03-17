@@ -84,4 +84,4 @@ Note: Wildcards are interpreted by the shell. Ensure that the wildcard is not en
 | ---------------------------------- | --------- |
 |Transfer files between remote hosts |[SCP: Remote to Remote](https://www.google.ru/search?q=SCP+remote+to+remote)|
 |Transfer files over 1 GB            |[SCP: Transferring Large Files](https://unix.stackexchange.com/questions/190537/transferring-large-8-gb-files-over-ssh)|
-|Use ssp on Windows machines         |[How to use SCP command on Windows](https://success.tanaza.com/s/article/How-to-use-SCP-command-on-Windows)|
+|Use SSP on Windows machines         |[How to Use SCP command on Windows](https://success.tanaza.com/s/article/How-to-use-SCP-command-on-Windows)|
