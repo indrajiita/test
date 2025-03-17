@@ -2,14 +2,6 @@
 
 ## Table of Contents
 
-<table>
-  <tr>
-    <td>
-      <strong>ℹ️ INFO:</strong> * The topic is excluded from the portfolio.
-    </td>
-  </tr>
-</table>
-
 - [Why a style guide is important](#why-a-style-guide-is-important)
 - [Using other style guides](#using-other-style-guides)
 - [Communication with users](#communication-with-users)
@@ -36,6 +28,16 @@
 - Content-specific tips *
   - Error messages *
   - Email notifications *
+
+
+ 
+<table>
+  <tr>
+    <td>
+      <strong>ℹ️ INFO:</strong> * The topic is excluded from the portfolio.
+    </td>
+  </tr>
+</table>
 
 ## [Why a style guide is important?](#why-style-guide-is-important)
 
