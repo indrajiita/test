@@ -47,7 +47,7 @@ To customize the application appearance from the initial configuration wizard:
     - Color theme
     - Accessibility options
     - Keymap scheme<br>
-<img src="https://github.com/indrajiita/test/blob/main/media1/customize.png" width="500" style="border: 2px solid black;">
+<img src="https://github.com/indrajiita/test/blob/main/media1/customize.png" width="500" style="border: 1px solid black;">
 
 To learn more, see [IDE appearance](https://www.jetbrains.com/help/datagrip/2021.2/guided-tour-around-the-user-interface.html).
 
@@ -59,8 +59,7 @@ To create a project from the initial configuration wizard:
 
 1. On the left panel, click **Project**.
 2. Click **New project** and enter a name.
-3. Click **OK**.<br>
-![New project](./media1/project.png)
+3. Click **OK**.<br><img src="https://github.com/indrajiita/test/blob/main/media1/project.png" width="500">
 
 ## Add data sources<a id="add-data-sources"></a>
 
@@ -68,8 +67,7 @@ A project can contain a number of data sources. To add a data source:
 
 1. On the **Database** pane, click ![New](./media1/add.svg) and select **Data source from Path**.
 2. Browse for a database file, and double-click it, or select and click **OK**. You can add the sample [chinook.db](#sample) database or another available local database.
-3. Select a driver, and click **OK**.<br>
-![New Data Source](./media1/selectbd.png)
+3. Select a driver, and click **OK**.<br><img src="https://github.com/indrajiita/test/blob/main/media1/selectbd.png" width="300">
 4. In the **Data Sources and Drivers** dialog that opens, click **OK**.
 
 JDBC drivers are not bundled with the installation package to reduce its size. To install the driver files:
@@ -77,8 +75,7 @@ JDBC drivers are not bundled with the installation package to reduce its size. T
 1. On the **Database** pane, click ![1](./media1/database.svg).
 2. At the bottom of the **General** tab, click **Download missing driver files**.
 3. Wait till the installation is over.
-4. Click **OK** to close the dialog.<br>
-![Download missing driver](./media1/downloaddriver.png)
+4. Click **OK** to close the dialog.<br><img src="https://github.com/indrajiita/test/blob/main/media1/downloaddriver.png?raw=true" width="500">
 
 To learn more, see [Database connection](https://www.jetbrains.com/help/datagrip/2021.2/connecting-to-a-database.html).
 
@@ -102,7 +99,7 @@ To create a query console:
   
 For the sample SQLite database, you'll see the following result:
 
-![Query result](./media1/result.png)
+<img src="https://github.com/indrajiita/test/blob/main/media1/result.png" width="500">
 
 Besides the console, you can run a query from scratch files and user files. To learn more, see [Run database code](https://www.jetbrains.com/help/datagrip/run-a-query.html).
 
@@ -117,8 +114,7 @@ DataGrip provides an engine to move data between databases in various formats. Y
     - **Extractor**. This defines the export file format, such as CSV, XLSX, or XML.
     - **Output file**. The path to the export file and its name.
 3. Optionally, select **Transpose**. In the transposed view, the rows and columns in the export file are interchanged.
-4. Click **Export to File**.<br>
-![Export Data](./media1/exportdata.png)
+4. Click **Export to File**.<br><img src="https://github.com/indrajiita/test/blob/main/media1/exportdata.png" width="500">
 
 See [Export](https://www.jetbrains.com/help/datagrip/2021.2/export-data.html) to learn about other data export options (for example, using the data editor).
 
@@ -127,8 +123,7 @@ See [Export](https://www.jetbrains.com/help/datagrip/2021.2/export-data.html) to
 1. On the **Database** pane, right-click a schema or a table and select **Import Data from File**.
 2. Browse for a file that contains delimiter-separated values and click **OK**.
 3. In the **Import File** dialog, select the data conversion parameters.
-4. Click **Import**.<br>
-![Import Data](./media1/importdata.png)
+4. Click **Import**.<br><img src="https://github.com/indrajiita/test/blob/main/media1/importdata.png" width="500">
 
 See [Import](https://www.jetbrains.com/help/datagrip/2021.2/import-data.html) to learn about other data import options (for example, using a script file).
 
