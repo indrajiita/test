@@ -4,12 +4,17 @@ B2C cybersecurity should feel accessible, stress-free, and reassuring—not inti
 
 # Cases
 
-<table width="100%">
+<table width="100%"> 
   <tr>
     <th>Challenge</th>
     <th>Solution</th>
     <th>Snapshot</th>    
   </tr>
+  <tr>  
+    <td valign="top">Create a title for a Kaspersky VPN story that conveys privacy and security while maintaining a fun and engaging tone.</td>  
+    <td valign="top">"Surf like nobody's watching. 'Cause nobody's watching."</td>
+    <td valign="top" width="35%"></td>    
+  </tr>     
   <tr>
     <td valign="top">New users hesitate to import passwords due to security concerns or uncertainty about how the process works.</td>
     <td valign="top"><ul><li>Reduce uncertainty by offering a clear textual and visual walkthrough of the import process.</li><li>Make the process feel familiar and intuitive by displaying recognizable service icons. (The list of services varies by region.)</li></ul></td>
@@ -21,7 +26,7 @@ B2C cybersecurity should feel accessible, stress-free, and reassuring—not inti
     <td valign="top" width="35%"><img src="https://github.com/indrajiita/test/blob/main/UX%20Writing/media1/PM%20not%20installed.jpg?raw=true" width="900"></td>    
   </tr>
   <tr>  
-    <td valign="top">Most users don’t actively search for cybersecurity tips unless they encounter a problem.</td>  
+    <td valign="top">Most users don't actively search for cybersecurity tips unless they encounter a problem.</td>  
     <td valign="top">Make security advice easily accessible by integrating a dedicated tab with a question-based prompt to engage users.</td>
     <td valign="top" width="35%"><img src="https://github.com/indrajiita/test/blob/main/UX%20Writing/media1/VPN%20tips.jpg?raw=true" width="900"></td>    
   </tr>  
