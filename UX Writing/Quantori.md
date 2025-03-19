@@ -2,7 +2,7 @@
 
 Qunatori develops software for life scientists and bioengineers. The biggest challenge for me as a UX writer was avoiding unnecessary complexity in an already dense interface while ensuring consistency in terminology that aligns with the company's and domain standards.
 
-To address this, I introduced a [writing style guide](https://github.com/indrajiita/test/edit/main/Technical%20Writing/writing_style_guide.md) and project-specific glossaries. Also, I made interfaces more intuitive, reducing the need for users to rely on documentation.
+To address this, I introduced a [writing style guide](https://github.com/indrajiita/test/edit/main/Technical%20Writing/writing_style_guide.md) and project-specific glossaries.
 
 # Cases
 
