@@ -12,7 +12,7 @@ Cybersecurity should feel accessible, stress-free, and intuitive—not intimidat
   </tr>
   <tr>
     <td valign="top">New users hesitate to import passwords due to security concerns or uncertainty about how the process works.</td>
-    <td valign="top"><ul><li>Reduce uncertainty by offering a clear textual and visual walkthrough of the import process.</li><li>Make the process feel familiar and intuitive by displaying recognizable service icons. (The list of apps varies by region.)</li></ul></td>
+    <td valign="top"><ul><li>Reduce uncertainty by offering a clear textual and visual walkthrough of the import process.</li><li>Make the process feel familiar and intuitive by displaying recognizable service icons. (The list of services varies by region.)</li></ul></td>
     <td valign="top" width="35%"><img src="https://github.com/indrajiita/test/blob/main/UX%20Writing/media1/PM%20main.jpg?raw=true" width="900"></td>    
   </tr>
   <tr>  
