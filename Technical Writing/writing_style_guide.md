@@ -1,3 +1,8 @@
+**Disclaimer**
+
+- The style guide was first created in Confluence. I tried to replicate its formatting using GitHub features, but some elements may not appear exactly as intended.
+- I am publishing only an extract of the guide. Topics that I have excluded are marked with an asterisk ( * ) in the Table of Contents.
+
 # Writing Style Guide
 
 ## Table of Contents
@@ -29,15 +34,6 @@
   - Error messages *
   - Email notifications *
 
-
- 
-<table>
-  <tr>
-    <td>
-      <strong>ℹ️ INFO:</strong> * The topic is excluded from the portfolio.
-    </td>
-  </tr>
-</table>
 
 ## [Why a style guide is important?](#why-style-guide-is-important)
 
