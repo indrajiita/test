@@ -1,7 +1,7 @@
 **Disclaimer**
 
-- The style guide was created in Confluence. I tried to replicate its formatting using GitHub features, but some elements may not appear as intended.
-- I am publishing only an extract of the guide. Topics that I have excluded are marked with an asterisk ( * ) in the Table of Contents.
+- The style guide was created in Confluence. I tried to replicate its formatting using GitHub features, but some elements may not appear as intended.
+- I am publishing only an extract of the guide. Topics that I have excluded are marked with an asterisk ( * ) in the Table of Contents.
 
 # Writing Style Guide
 
@@ -37,21 +37,21 @@
 
 ## [Why a style guide is important?](#why-style-guide-is-important)
 
-Every content contributor has their own style, voice, and preferences. However, we all enjoy using apps that communicate with us consistently, clearly, and effectively. A style guide is one of the means to build the foundation of a solid user experience across the company's products.
+Every content contributor has their own style, voice, and preferences. However, we all enjoy using apps that communicate with us consistently, clearly, and effectively. A style guide is one of the means to build the foundation of a solid user experience across the company's products.
 
-Also, UX writing doesn't always follow the language rules perfectly—effectiveness comes before grammar. A style guide helps you to define the boundaries of your grammar flexibility and save time arguing with your reviewers over a comma or a word choice.
+Also, UX writing doesn't always follow the language rules perfectly—effectiveness comes before grammar. A style guide helps you to define the boundaries of your grammar flexibility and save time arguing with your reviewers over a comma or a word choice.
 
-And last but not least, style guides help you to save time by settling down arguments with your fellow coworkers over a comma or a word choice.
+And last but not least, style guides help you to save time by settling down arguments with your fellow coworkers over a comma or a word choice.
 
 ## [Using other style guides](#using-other-style-guides)
 
-Clients' style guides always take precedence over this guide. When there's a conflict, follow the client's guide. For unresolved questions, [contact Andrew Orlov](mailto:andrey.orlov.ru@gmail.com).
+Clients' style guides always take precedence over this guide. When there's a conflict, follow the client's guide. For unresolved questions, [contact Andrew Orlov](mailto:andrey.orlov.ru@gmail.com).
 
 ## [Communication with users](#communication-with-users)
 
 ### [Addressing the user](#addressing-the-user)
 
-Even though an app might have thousands of users, its interface communicates with the current one.
+Even though an app might have thousands of users, its interface communicates with the current one.
 
 - Write as if speaking directly to the user ("you," "your," "yours").
 - To let the user tell the app what to do, write from the user's perspective ("I," "me," "my").
