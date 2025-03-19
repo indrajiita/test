@@ -1,7 +1,10 @@
 # Intro
 
+The flagship product of 1Ci—the 1C:Enterprise platform—is known for being flexible, scalable, and… burdened by legacy UX challenges.
 
+As a UX writer, I worked on improving both existing and new interfaces—a process that is still ongoing. This page only covers improvements to existing interfaces.
 
+P.S. If you're reading this, ask me about a funny story from my time at 1C International. 😄
 
 # Cases
 
