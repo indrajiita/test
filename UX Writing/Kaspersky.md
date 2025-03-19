@@ -12,7 +12,7 @@ B2C cybersecurity should feel accessible, stress-free, and reassuring—not inti
   </tr>
   <tr>  
     <td valign="top">Create a title for a Kaspersky VPN story that conveys privacy and security while maintaining a fun and engaging tone.</td>  
-    <td valign="top">"Surf like nobody's watching. 'Cause nobody's watching."</td>
+    <td valign="top"><i>Surf like nobody's watching. 'Cause nobody's watching.</i><br>(A playful homage to a phrase coined by Mark Twain.)</td>
     <td valign="top" width="35%"></td>    
   </tr>     
   <tr>
