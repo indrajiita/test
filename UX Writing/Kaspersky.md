@@ -1,6 +1,6 @@
 # Intro
 
-Cybersecurity should feel accessible, stress-free, and intuitive—not intimidating. As a UX writer for Kaspersky VPN and Password Manager, I created clear, engaging microcopy that builds trust and inspires users to protect their data.
+B2C cybersecurity should feel accessible, stress-free, and reassuring—not intimidating. As a UX writer for Kaspersky VPN and Password Manager, I created clear, engaging microcopy that builds trust and inspires users to protect their data.
 
 # Cases
 
