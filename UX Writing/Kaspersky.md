@@ -30,4 +30,9 @@ B2C cybersecurity should feel accessible, stress-free, and reassuring—not inti
     <td valign="top">Make security advice easily accessible by integrating a dedicated tab with a question-based prompt to engage users.</td>
     <td valign="top" width="35%"><img src="https://github.com/indrajiita/test/blob/main/UX%20Writing/media1/VPN%20tips.jpg?raw=true" width="900"></td>    
   </tr>  
+  <tr>  
+    <td valign="top">Many users struggle to identify phishing attempts, as fraudulent messages and websites closely mimic legitimate services.<br>(This is a story draft.)</td>  
+    <td valign="top"><ul><li>Explain phishing scams in simple terms to raise awareness.</li><li>Introduces Kaspersky Anti-Phishing as a professional security solution, highlighting its ability to block dangerous links and detect emerging threats.</li></ul></td>
+    <td valign="top" width="35%"><img src="https://github.com/indrajiita/test/blob/main/UX%20Writing/media1/Kaspersky%20Anti-Phishing%20iOS.jpg?raw=true" width="900"></td>    
+  </tr>    
 </table>
