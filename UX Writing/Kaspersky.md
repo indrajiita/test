@@ -12,7 +12,7 @@ B2C cybersecurity should feel accessible, stress-free, and reassuring—not inti
   </tr>
   <tr>  
     <td valign="top">Create a title for a Kaspersky VPN story that conveys privacy and security while maintaining a fun and engaging tone.</td>  
-    <td valign="top"><i>Surf like nobody's watching. 'Cause nobody's watching.</i><br>(A playful homage to a phrase coined by Mark Twain.)</td>
+    <td valign="top">Surf like nobody's watching. 'Cause nobody's watching.<br><i>(A playful homage to a phrase coined by Mark Twain.)</i></td>
     <td valign="top" width="35%"></td>    
   </tr>     
   <tr>
@@ -31,8 +31,8 @@ B2C cybersecurity should feel accessible, stress-free, and reassuring—not inti
     <td valign="top" width="35%"><img src="https://github.com/indrajiita/test/blob/main/UX%20Writing/media1/VPN%20tips.jpg?raw=true" width="900"></td>    
   </tr>  
   <tr>  
-    <td valign="top">Many users struggle to identify phishing attempts, as fraudulent messages and websites closely mimic legitimate services.<br>(This is a story draft.)</td>  
+    <td valign="top">Many users struggle to identify phishing attempts, as fraudulent messages and websites closely mimic legitimate services.<br><i>(This is a story draft.)</i></td>  
     <td valign="top"><ul><li>Explain phishing scams in simple terms to raise awareness.</li><li>Introduces Kaspersky Anti-Phishing as a professional security solution, highlighting its ability to block dangerous links and detect emerging threats.</li></ul></td>
-    <td valign="top" width="35%"><img src="https://github.com/indrajiita/test/blob/main/UX%20Writing/media1/Kaspersky%20Anti-Phishing%20iOS.jpg?raw=true" width="900"></td>    
+    <td valign="top" width="35%"><img src="https://github.com/indrajiita/test/blob/main/UX%20Writing/media1/Kaspersky%20Anti-Phishing%20iOS.jpg?raw=true" width="900"></td>
   </tr>    
 </table>
