@@ -12,16 +12,16 @@ This procedure outlines the steps required to change the NFS permissions on a WE
 | Term/Acronym | Definition |
 |--------------|------------|
 | GUI |  Graphical User Interface. A visual interface that allows users to interact with software using graphical elements like buttons and menus. |
-| CLI |  Command-Line Interface. A visual interface that allows users to interact with software using graphical elements like buttons and menus. |
+| CLI |  CLI | Command-Line Interface. A text-based interface that lets users interact with software by typing commands. |
 | ADM Account |  An administrator-level user account with elevated permissions for managing system settings. |
 
 # Responsibilities
-The HPC Support Team is responsible for performing this procedure, periodically reviewing and updating it as necessary, and maintaining proper support documentation. Specific responsibilities are defined in the table below.
+The HPC Support Team performs this procedure, periodically reviews and updates it as necessary, and maintains proper support documentation. Specific responsibilities are defined in the table below.
 
 | Role/Group | Responsibilities |
 |------------|-----------------|
 | HPC Support Engineers | Perform the procedure. |
-| Technical Writer | Review, and maintain documentation. |
+| Technical Writer | Review and maintain documentation. |
 
 # Prerequisites
 N/A
@@ -35,7 +35,7 @@ It may be necessary to grant access to shared filesystems on non-cluster nodes. 
 Not required as the process does not involve service interruption.
 
 ## Implementation Plan
-There are two methods to modify permissions in WEKA: using the **GUI** or the **CLI**.
+There are two methods to modify permissions in WEKA: the **GUI** and the **CLI**.
 
 ### Method 1: Using the GUI
 1. Access the WEKA GUI: [http://weka.sample.com:14001/ui](http://weka.sample.com:14001/ui).
