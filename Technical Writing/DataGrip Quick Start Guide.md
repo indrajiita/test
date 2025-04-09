@@ -32,7 +32,7 @@ This guide aims to give you the first experience of the product. By following th
 
 ## First launch<a id="first-launch"></a>
 
-When you launch DataGrip for the first time, the initial configuration wizard opens. It has the following menus:
+When you first launch DataGrip, the initial configuration wizard opens. It includes the following menus:
 
 - **Projects**. [Create your first project](#create-a-project).
 - **Customize**. [Fine-tune the application appearance](#customize-the-appearance) to suit your personal preferences and special needs.
@@ -54,7 +54,7 @@ To learn more, see [IDE appearance](https://www.jetbrains.com/help/datagrip/2021
 
 ## Create a project<a id="create-a-project"></a>
 
-A DataGrip project is a complex of your data sources, console and scratch files, and attached folders.
+A DataGrip project organizes your data sources, console and scratch files, and attached folders.
 
 To create a project from the initial configuration wizard:
 
@@ -67,7 +67,7 @@ To create a project from the initial configuration wizard:
 A project can contain multiple data sources. To add a data source:
 
 1. On the **Database** pane, click ![New](./media1/add.svg) and select **Data source from Path**.
-2. Browse for a database file, and double-click it, or select and click **OK**. You can add the sample [chinook.db](#sample) database or another available local database.
+2. Browse for a database file. Double-click it, or select and click **OK**. You can add the sample [chinook.db](#sample) database or another available local database.
 3. Select a driver, and click **OK**.<br><img src="https://github.com/indrajiita/test/blob/main/Technical%20Writing/media1/selectbd.png?raw=true" width="300">
 4. In the **Data Sources and Drivers** dialog that opens, click **OK**.
 
@@ -75,7 +75,7 @@ JDBC drivers are not bundled with the installation package to reduce its size. T
 
 1. On the **Database** pane, click ![1](./media1/database.svg).
 2. At the bottom of the **General** tab, click **Download missing driver files**.
-3. Wait till the installation is over.
+3. Wait until the installation completes.
 4. Click **OK** to close the dialog.<br><img src="https://github.com/indrajiita/test/blob/main/Technical%20Writing/media1/downloaddriver.png?raw=true" width="500">
 
 To learn more, see [Database connection](https://www.jetbrains.com/help/datagrip/2021.2/connecting-to-a-database.html).
@@ -90,8 +90,8 @@ To create a query console:
 2. Select **New | Query Console**.
 3. Type in a query statement. For example, for the sample database, type the following query:
     ```sql
-    select * from albums
-    where ArtistId = '16'
+    SELECT * FROM albums
+    WHERE ArtistId = '16'
     ```
 4. To run the query, do either of the following:
     - Click ![Run](./media1/run.svg) on the toolbar.
@@ -113,7 +113,7 @@ DataGrip provides an engine to move data between databases in various formats. Y
 1. On the **Database** pane, right-click a schema or a table and select **Export Data to File(s)**.
 2. In the **Export Data** dialog, provide the following required parameters:
     - **Extractor**. This defines the export file format, such as CSV, XLSX, or XML.
-    - **Output file**. The path to the export file and its name.
+    - **Output File**. The path to the export file and its name.
 3. Optionally, select **Transpose**. In the transposed view, the rows and columns in the export file are interchanged.
 4. Click **Export to File**.<br><img src="https://github.com/indrajiita/test/blob/main/Technical%20Writing/media1/exportdata.png?raw=true" width="500">
 
